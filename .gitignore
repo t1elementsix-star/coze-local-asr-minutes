@@ -1,0 +1,23 @@
+.env
+.venv*/
+.testdeps/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local audio and generated transcripts may contain private meeting data.
+*.mp3
+*.m4a
+*.wav
+*.ogg
+*.flac
+audio_cache/
+outputs/
+chunks/
+
+# IDE and operating-system files.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
